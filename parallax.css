@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ font-family: sans-serif;
+}
+
+.navbar{
+    width: 98.5vw;
+    height: 70px;
+   background-color: #757263;
+   display: flex; justify-content: center;
+   border: white 1px solid;
+}
+.bar{
+    width: 60%;
+    height: 70px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.bar div{
+    width: 180px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+   
+}
+.bar div img{
+    width: 160px;
+    height: 20px;
+   margin-left: 40px;
+}
+.menu{
+    width: 40%;
+    height: 70px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+   
+    display: flex; justify-content: space-evenly;
+    align-items: center;
+}
+.container{
+    min-height: 85vh;
+    width: 98.5vw;
+    background-image: url(https://cdn.prod.website-files.com/64542138e0be122910058cd2/6605bd5e7464a2c67655b61e_Girl-Goat-Los-Angeles-01.avif);
+    background-size: cover;
+    background-position: center;
+}
+.about{
+    width: 98.5vw;
+    height: 380px;
+    background-color: white;
+    display: flex; justify-content: center; align-items: center;
+    animation-name: opacity; animation-timeline: view();
+    
+}
+@keyframes opacity{
+    from{
+        opacity: 0; scale: 0.8;
+    }
+    to{
+        opacity: 1; scale: 1;
+    }
+}
+.address{
+    margin-top: -40px;
+    width: 280px; 
+    height: 250px;
+}
+.address h1{
+    font-weight: lighter;
+    margin-top: 20px; margin-left: 25%;
+}
+.p, .p5{
+    color: #333333;
+    margin: 30px 0 0 25%;
+}
+.p5{
+    margin-left: 10%;
+}
+.address button{
+    background-color: #a76435;
+    border: none;
+    width: 140px;
+    height: 50px;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 22%;
+}
+.p1, .p3, .p4{
+ font-weight: 600; color: #333333;
+ font-size: 18px;  margin: 30px 0 0 15%;
+}
+.p3{
+    margin-left: 10%;
+}
+
+.p4{
+    margin-left: 30%;
+}
+.p2{
+    color: #333333;
+    margin-left: 25%;
+}
+.fixed{
+    width: 98.5vw;
+    height: 100vh;
+    background-image: url(https://cdn.prod.website-files.com/64542138e0be122910058cd2/6605db02857f68d1013a8882_Girl-Goat-Los-Angeles-02.avif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.girl{
+    height: 450px;
+    width: 98.5vw;
+    border: 2px solid white; display: flex;
+    justify-content: center; align-items: center;
+    animation-name: goation; animation-timeline: view(00px);
+    animation-range: entry();
+}
+.in{
+    width: 80%;
+    height: 320px;
+    display: flex; justify-content: space-between;
+}
+.animation{
+    height: 320px;
+    width: 52%; 
+    display: flex; justify-content: space-evenly;
+}
+.animation img{
+    height: 320px;
+    width: 236px;
+    margin-right: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 10px; 
+  
+}
+.goat{
+    width: 45%;
+    height: 320px;  
+  
+}
+@keyframes goation{
+    0%{
+        opacity: 0; scale: 0.5;
+    }
+    100%{
+        opacity: 1; scale: 1;
+    }
+}
+.p6{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.goat h2{
+    font-size: 26px;  
+}
+.blur{
+    height: 360px;
+    width: 98.5vw;
+    background-image: url(./img/reserve.png);
+    background-size: cover;
+    background-position: center;
+    animation-name: goation; animation-timeline: view(00px);
+    animation-range: entry();
+}
+.happenings{
+    width: 98.5vw;
+    height: 100vh;
+    animation-name: goation; animation-timeline: view(00px);
+    animation-range: entry();
+}
+
+.happenings h1{
+    margin-top: 70px; margin-left: 42%;
+}
+.blurry{
+   width: 600px;
+   height: 350px;
+   margin-top: 60px; margin-left: 80px; border: 2px solid black;
+   background-image: url(https://cdn.prod.website-files.com/64542138e0be122910058cd2/6605c01011e1be98dc02659b_margarita-GGLA.webp); background-size: cover; background-position: center;
+   border-radius: 10px; box-shadow: 0 0 5px;
+}
+.farmer{
+    width: 400px;
+    height: 200px; 
+    margin-top: -280px;
+    margin-left: 800px;
+}
+.farmer h2{
+    margin-left: 10%;
+}
+.p7{
+    margin-top: 15px; 
+}
+.farmer button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: #a76435;
+    margin-left: 30%;
+    margin-top: 20px; border-radius: 10px;
+}
+.mainerd{
+    height: 340px;
+    width: 98.5vw;
+    background-color: #e1ccbe;
+   
+}
+.nerd{
+    height: 300px;
+    width: 98.5vw;
+   
+    color: black;
+    animation-name: goation; animation-timeline: view(00px);
+    animation-range: entry();
+}
+.nerd h2{
+    padding-top: 10%;
+    margin-left: 45%;
+}
+.nerd p{
+    margin: 10px 0 0 35%;
+}
+.nerd button{
+    width: 120px; height: 40px; color: white;
+    background-color: #a76435; border: none; 
+    border-radius: 10px;
+    margin: 30px 0 0 46%;
+}
+.foot, .end, .end2{
+    width: 98.5vw;
+    height: 80px;
+  
+    background-color: #e1ccbe;
+    display: flex;
+    animation-name: rihan; animation-timeline: view();
+    
+    justify-content: center;align-items: center;
+}
+
+.end{
+    height: 20px;
+    font-size: 15px;
+    display: flex;
+    align-items: baseline;
+}
+.end2{
+    height: 80px;
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+    font-size: 10px;
+}
+.los{
+    background-image: url(https://cdn.prod.website-files.com/64542138e0be122910058cd2/6461a69552fe54afa421d3db_GGLA_Logos_Footer-p-500.avif); background-position: center;
+    background-size: cover; width: 180px;
+    height: 50px;   
+  
+}
+.logo{
+    width: 600px;
+    height: 30px;
+    font-size: 12px;
+    font-weight:500; margin-top: -10px;
+    display: flex;
+    justify-content: space-evenly; align-items: center;
+}
+button:hover{
+    background-color: #e1ccbe;
+    color: #a76435;
+    border: 1px solid #a76435;
+    font-size: 15px;
+    box-shadow: 0 0 5px;
+}
